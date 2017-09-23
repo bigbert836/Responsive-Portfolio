@@ -157,3 +157,82 @@ a{
 .footer{
 	height: 50px;
 }
+
+@media only screen and (max-width: 980px){
+	#background,
+	#bottom,
+	footer,
+	header {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+	#background,
+	#bottom,
+	footer,
+	header{
+		width: 100%;
+	}
+	.about{
+		width: 80%;
+	}
+	.connect{
+		width: 90%;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+	.nav{
+		width: 55%;
+		text-align: right;
+		margin: 0px;
+	}
+	.about hr{
+		width: 90%;
+	}
+	#name{
+		margin-left: 0px;
+		padding-left: 10px;
+	}
+}
+
+@media only screen and (max-width: 640px){
+	#background,
+	#bottom,
+	footer,
+	header,
+	#name,
+	.nav {
+		width: 100%;
+	}
+	.nav,
+	#name{
+		text-align: center;
+	}
+	.about{
+		width: 80%;
+		margin-left: 10px;
+	}
+	input,
+	textarea{
+		width: 90%;
+	}
+	.connect{
+		width: 90%;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+	.about hr{
+		width: 90%;
+	}
+	#name{
+		margin-left: 0px;
+		padding: 0px;
+	}
+}
+
+
+
